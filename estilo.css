@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+.base{
+    top: 30%;
+}
+
+.pac{
+    width: 0px; 
+    height: 0px; 
+    border-right:  100px solid transparent; 
+    border-top:    100px solid #F9BF3B; 
+    border-left:   100px solid #F9BF3B; 
+    border-bottom: 100px solid #F9BF3B; 
+    border-radius: 50%;
+    animation: mudaTam 0.2s infinite alternate-reverse;
+}
+
+@keyframes mudaTam{
+    from{
+        border-right:   100px solid transparent; 
+        border-top:     100px solid #F9BF3B; 
+        border-left:    100px solid #F9BF3B; 
+        border-bottom:  100px solid #F9BF3B; 
+    }
+    to{ 
+        border-right:  100px solid transparent; 
+        border-top:    100px solid #F9BF3B; 
+        border-left:   101px solid #F9BF3B; 
+        border-bottom: 101px solid #F9BF3B; 
+    }
+}
